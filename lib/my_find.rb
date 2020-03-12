@@ -6,6 +6,6 @@ i = 0
     if yield(collection[i])
       return collection[i]
     end
-    i = i + 1
+    i += 1
   end
 end
